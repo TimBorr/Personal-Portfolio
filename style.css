@@ -120,8 +120,3 @@ h2, p {
 .theme-toggle-slider:checked::before {
     transform: translateX(25px);
 }
-
-/* Label for the slider (optional, can add text here if needed) */
-.theme-toggle-label {
-    display: none; /* Hidden since the slider speaks for itself */
-}
