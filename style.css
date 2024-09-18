@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+h2, p {
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: #212529;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #212529;
+}
+
+.dark-mode footer {
+    background-color: #212529;
+}
+
+.dark-mode nav ul li a {
+    color: white;
+}
+
+.dark-mode nav ul li a:hover {
+    background-color: #555;
+}
+
+.dark-mode button {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
