@@ -40,14 +40,15 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    display: incline; 
 }
 
 nav ul li a {
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 5px 15px;
     text-decoration: none;
+    font-size: 16px;
 }
 
 nav ul li a:hover {
@@ -153,4 +154,24 @@ h2, p {
 .icon:active {
     transform: scale(0.95); /* Slightly "push" the icon when clicked */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Reduce shadow when clicked */
+}
+#socials-container {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 30px; /* Adds 30px space between the icons */
+}
+
+.icon {
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.icon:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
