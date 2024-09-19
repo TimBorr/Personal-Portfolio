@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Tim Borrego, student at Clayton State University">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Tim Borrego - Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,34 +14,43 @@
 <body>
     <header class="text-center">
         <h1>Tim Borrego</h1>
-        <p>Student at Clayton State University, Atlanta, Georgia</p>
+        <p>Computer Science student at Clayton State University, Atlanta, Georgia</p>
          <!-- Dark Mode Toggle Slider -->
          <div class="theme-toggle-container">
             <input type="checkbox" id="theme-toggle" class="theme-toggle-slider">
             <label for="theme-toggle" class="theme-toggle-label"></label>
         </div>
-        <nav>
+        <nav class="">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#esport">ESPORT</a></li>
             </ul>
-        </nav>
-        <section id="home" class="container text-center"></section>
+            <section id="home" class="container text-center"></section>
         <section id="projects" class="container text-center"></section>
-        <section id="esport" class="container text-center"></section>  
+        <section id="esport" class="container text-center"></section> 
+        </nav> 
     </header>
-
     <section class="container text-center">
         <h2>About Me</h2>
         <img src="asset/your-profile-pic.jpg" alt="My profile-pic" class="profile-pic">
         <p>Hi! I'm Tim Borrego, a passionate student studying Computer Science with a minor in Mathematics at Clayton State University. 
             I have a deep interest in all things Software Engineering. My academic and recreational projects are where I try to apply my knowledge. 
             I spend all of my time learning, researching, competing in competitive gaming tournaments, and exercising.</p>
-        <div>
-            <a href="https://github.com/TimBorr" class="btn btn-primary">GitHub</a>
-            <a href="https://www.linkedin.com/in/timborr/" class="btn btn-secondary">LinkedIn</a>
-        </div>
+            <div id="socials-container">
+                <img
+                    src="./asset/linkedin.png" 
+                    alt="My LinkedIn profile"
+                    class="icon" height="100px" width="100px"
+                    onclick="location.href='https://www.linkedin.com/in/timborr/'"
+                />
+                <img
+                    src="./asset/github.png"
+                    alt="My Github profile"
+                    class="icon" height="100px" width="100px"
+                    onclick="location.href='https://github.com/TimBorr'"
+                />
+            </div>
     </section>
 
     <section class="container text-center">

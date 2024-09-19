@@ -40,7 +40,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -139,4 +139,18 @@ h2, p {
 
 .scroll-to-top-btn:hover {
     background-color: #212529;
+}
+.icon {
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+    cursor: pointer;
+}
+
+.icon:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow effect on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+.icon:active {
+    transform: scale(0.95); /* Slightly "push" the icon when clicked */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Reduce shadow when clicked */
 }
